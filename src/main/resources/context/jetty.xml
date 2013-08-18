@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE Configure PUBLIC "-//Jetty//Configure//EN" "http://www.eclipse.org/jetty/configure.dtd">
+
+<Configure class="org.eclipse.jetty.server.Server">
+	<New id="mySql" class="org.eclipse.jetty.plus.jndi.Resource">
+		<Arg>jdbc/test</Arg>
+		<Arg>
+			<New class="com.mysql.jdbc.jdbc2.optional.MysqlConnectionPoolDataSource">
+				<Set name="Url">jdbc:mysql://localhost:3306/test</Set>
+				<Set name="user">hibuser</Set>
+				<Set name="password">root</Set>
+			</New>
+		</Arg>
+	</New>
+</Configure>
