@@ -2,6 +2,8 @@ SpringJavaConfigExample
 =======================
 ###(with Servlet 3.0 and JSTL 1.2)
 
+![Java CI with Maven](https://github.com/benrhine/SpringJavaConfigExample/workflows/Java%20CI%20with%20Maven/badge.svg?branch=master)
+
 A Simple Spring MVC application with Java configuration for servlet 3.0 and a complete test suite
 
 For me this is more of a memory aide as well as a learning tool.  I wanted to have a fully tested, template web application to jump start any future projects for work as well as being able to easily reference things that I have learned or just want to remember.  This is the third template program in a series I am working on in my free time, I hope to soon have four of these examples.
